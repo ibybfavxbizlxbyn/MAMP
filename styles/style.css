@@ -16,14 +16,14 @@ h2 {
     color: black;
     font-size: 18px;
     font-weight: 400;
-    background-color: #eaeaea;
+    background-color: #e0dede;
 }
 
 h3 {
     color: black;
     font-size: 17px;
     font-weight: 400;
-    background-color: #eaeaea;
+    background-color: #e0dede;
 }
 
 .short {
@@ -44,7 +44,7 @@ h3 {
 .list {
     color: dimgray;
     font-size: 16px;
-    list-style-image: url(img/bitcoin.svg);
+    list-style-image: url(../img/bitcoin.svg);
 }
 
 .comment {
@@ -71,11 +71,6 @@ textarea {
     height: 200px;
     font-size: 14px;
 }
-
-/*img[width="250px"] {
-    border-color: black;
-    border-width: 20px;
-}*/
 
 .catalog {
     width: 300px;
