@@ -1,0 +1,100 @@
+body {
+    background-color: #f8f8f8;
+}
+
+.menu {
+    color: black;
+    font-family: sans-serif;
+    font-size: large;
+}
+
+.menu:visited {
+    color: black;
+}
+
+h2 {
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: #eaeaea;
+}
+
+h3 {
+    color: black;
+    font-size: 17px;
+    font-weight: 400;
+    background-color: #eaeaea;
+}
+
+.short {
+    color: #707070;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px;
+}
+
+.detail {
+    color: #484343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+.list {
+    color: dimgray;
+    font-size: 16px;
+    list-style-image: url(img/bitcoin.svg);
+}
+
+.comment {
+    color: black;
+    font-size: 17px;
+}
+
+input[type="text"] {
+    width: 175px;
+    height: 15px;
+    font-weight: 100;
+    color: black;
+    font-size: 15px;
+}
+
+input[type="password"] {
+    width: 175px;
+    height: 15px;
+    font-size: 15px;
+}
+
+textarea {
+    width: 350px;
+    height: 200px;
+    font-size: 14px;
+}
+
+/*img[width="250px"] {
+    border-color: black;
+    border-width: 20px;
+}*/
+
+.catalog {
+    width: 300px;
+    height: 300px;
+    border-color: dimgray;
+    border-width: 2px;
+    border-style: solid;
+}
+
+.similar {
+    width: 150px;
+    height: 150px;
+    border-color: dimgray;
+    border-width: 2px;
+    border-style: solid;
+}
+
+.description {
+    outline-color: black;
+    outline-style: solid;
+    outline-width: 3px;
+}

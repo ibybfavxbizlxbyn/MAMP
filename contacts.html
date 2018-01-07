@@ -4,22 +4,23 @@
 <head>
     <meta charset="UTF-8">
     <title>MAMP</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body>
-    <ul>
-        <li><a href="index.html">Главная</a></li>
-        <li><a href="catalog.html">Каталог</a></li>
-        <li><a href="contacts.html">Контакты</a></li>
-    </ul>
+    <a href="index.html"><img src="img/Logo_Big.jpg" width="460" height="142" alt="Memes Anonimous MarketPlace"></a>
+    <br/>
+    <a class="menu" href="index.html">Главная</a>
+    <a class="menu" href="catalog.html">Каталог</a>
+    <a class="menu" href="contacts.html">Контакты</a>
     <hr/>
-    <img src="img/Logo_Big.jpg" width="460" height="142" alt="Memes Anonimous MarketPlace">
+    <h1>Контакты</h1>
     <h2>Оставить отзыв</h2>
-    <form action="#" method="post">
-        <p>Ваше имя: <input type="text" placeholder="login"></p>
-        <p>Ваш пароль: <input type="password" placeholder="password"></p>
-        <p>Запомнить меня<input type="checkbox" value="0" name="remember"></p>
-        <p>Ваш пол: <input type="radio" value="male" name="sex">Мужской <input type="radio" value="male" name="sex">Женский</p>
+    <form action="#" method="post" class="comment">
+        <p class="comment">Ваше имя: <input type="text" placeholder="login"></p>
+        <p class="comment">Ваш пароль: <input type="password" placeholder="password"></p>
+        <p class="comment">Запомнить меня <input type="checkbox" value="0" name="remember"></p>
+        <p class="comment">Ваш пол: <input type="radio" value="male" name="sex">Мужской <input type="radio" value="male" name="sex">Женский</p>
         <textarea name="comments" rows="10" cols="30"></textarea><br/>
         <input type="submit" name="submit" value="Отправить">
     </form>
