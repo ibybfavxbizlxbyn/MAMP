@@ -3,11 +3,11 @@ body {
 }
 
 a {
-    color: dimgray;
+    color: black;
 }
 
 a:visited {
-    color: dimgray;
+    color: black;
 }
 
 .menu {
@@ -16,12 +16,8 @@ a:visited {
     font-size: large;
 }
 
-.menu:visited:hover {
+.menu:hover {
     color: red;
-}
-
-.menu:visited {
-    color: black;
 }
 
 h2 {
