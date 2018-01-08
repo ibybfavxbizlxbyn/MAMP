@@ -2,10 +2,22 @@ body {
     background-color: #f8f8f8;
 }
 
+a {
+    color: dimgray;
+}
+
+a:visited {
+    color: dimgray;
+}
+
 .menu {
     color: black;
     font-family: sans-serif;
     font-size: large;
+}
+
+.menu:visited:hover {
+    color: red;
 }
 
 .menu:visited {
@@ -75,21 +87,39 @@ textarea {
 .catalog {
     width: 300px;
     height: 300px;
-    border-color: dimgray;
-    border-width: 2px;
-    border-style: solid;
+    border: 2px solid dimgray;
 }
 
 .similar {
     width: 150px;
     height: 150px;
-    border-color: dimgray;
-    border-width: 2px;
-    border-style: solid;
+    border: 2px solid dimgray;
+}
+
+.similar:hover {
+    border: none;
 }
 
 .description {
-    outline-color: black;
-    outline-style: solid;
-    outline-width: 3px;
+    outline: 3px solid black;
+}
+
+.description:hover {
+    outline: none;
+}
+
+table{
+    border: 2px solid black;
+    width: 400px;
+    height: 200px;
+    border-spacing: inherit;
+}
+
+tr:first-child { 
+    height: 35px;
+}
+
+td {
+    border: 1px solid black;
+    text-align: center;
 }
