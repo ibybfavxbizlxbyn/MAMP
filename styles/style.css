@@ -8,6 +8,7 @@ body {
 
 .header {
     height: 175px;
+    background-image: url(../img/background.jpg);
 }
 
 .logo {
@@ -37,7 +38,7 @@ body {
 
 .footer {
     height: 30px;
-    background-color: #e0dede;
+    background-image: url(../img/background.jpg);
 }
 
 .footer p {
@@ -46,12 +47,31 @@ body {
     margin-right: 5px;
 }
 
+.catalog {
+    display: inline-block;
+    margin-left: 50px;
+}
+
+.catalog img{
+    width: 300px;
+    height: 300px;
+    outline: 3px solid dimgray;
+}
+
+.catalog img:hover {
+    outline: none;
+}
+
 a {
     color: black;
 }
 
 a:visited {
     color: black;
+}
+
+h1 {
+    margin-left: 20px;
 }
 
 h2 {
@@ -68,21 +88,61 @@ h3 {
     background-color: #e0dede;
 }
 
+.image img{
+    width: 500px;
+    height: 500px;
+    float: left;
+    position: relative;
+    border: 5px solid white;
+}
+
+.image img:hover {
+}
+
 .short {
+    display: inline-block;
+}
+
+.short p {
     color: #707070;
     font-size: 14px;
     font-style: italic;
     line-height: 16px;
+    padding-left: 20px;
+}
+
+.short p:first-letter {
+    color: black;
+    font-size: 20px;
+}
+
+.short ul li {
+    color: dimgray;
+    font-size: 16px;
+    list-style: disk;
 }
 
 
-.short:first-letter {
-    color: red;
-    font-size: 20px;
-    font-family: monospace;
+.short table {
+    border: 2px solid black;
+    width: 400px;
+    height: 200px;
+    border-spacing: inherit;
+}
+
+.short table tr:first-child {
+    height: 35px;
+}
+
+.short table td {
+    border: 1px solid black;
+    text-align: center;
 }
 
 .detail {
+}
+
+.detail p{
     color: #484343;
     font-size: 16px;
     font-weight: 400;
@@ -90,16 +150,34 @@ h3 {
     text-align: left;
 }
 
-.detail:first-letter {
-    color: red;
+.detail p:first-of-type::first-letter{
+    color: black;
     font-size: 20px;
-    font-family: monospace;
+    font-family: cursive;
 }
 
-.list {
-    color: dimgray;
-    font-size: 16px;
-    list-style-image: url(../img/bitcoin.svg);
+.detail input[type="submit"] {
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+}
+
+.detail input[type="submit"]:hover {
+    border-color: black;
+}
+
+.detail input[type="submit"]:active {
+    background-color: dimgray;
+}
+
+.detail a img{
+    width: 150px;
+    height: 150px;
+    border: 2px solid dimgray;
+}
+
+.detail a img:hover {
+    border: none;
 }
 
 .comment {
@@ -108,7 +186,7 @@ h3 {
 }
 
 input[type="email"] {
-  text-transform: capitalize;  
+    text-transform: capitalize;
 }
 
 input[type="email"]:focus {
@@ -136,43 +214,7 @@ textarea {
     text-transform: capitalize;
 }
 
-.catalog {
-    width: 300px;
-    height: 300px;
-    border: 2px solid dimgray;
-}
-
-.similar {
-    width: 150px;
-    height: 150px;
-    border: 2px solid dimgray;
-}
-
-.similar:hover {
-    border: none;
-}
-
-.description {
-    float: left;
-    position: relative;
-}
-
-.description:hover {
-    outline: 3px solid #e0dede;
-}
-
-table{
-    border: 2px solid black;
-    width: 400px;
-    height: 200px;
-    border-spacing: inherit;
-}
-
-tr:first-child { 
-    height: 35px;
-}
-
-td {
-    border: 1px solid black;
-    text-align: center;
+iframe {
+    width: 100%;
+    height: 374px;
 }
