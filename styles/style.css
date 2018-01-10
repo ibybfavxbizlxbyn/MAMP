@@ -17,6 +17,7 @@ body {
     margin-top: 10px;
     margin-left: 10px;
     float: left;
+    border: 2px solid black;
 }
 
 .header ul {
@@ -49,10 +50,10 @@ body {
 
 .catalog {
     display: inline-block;
-    margin-left: 50px;
+    margin: 0 25px;
 }
 
-.catalog img{
+.catalog img {
     width: 300px;
     height: 300px;
     outline: 3px solid dimgray;
@@ -88,19 +89,21 @@ h3 {
     background-color: #e0dede;
 }
 
-.image img{
+.image img {
     width: 500px;
     height: 500px;
     float: left;
     position: relative;
-    border: 5px solid white;
+    outline: 3px solid dimgray;
 }
 
 .image img:hover {
+    outline: none;
 }
 
 .short {
     display: inline-block;
+    margin: 0 25px;
 }
 
 .short p {
@@ -140,9 +143,11 @@ h3 {
 }
 
 .detail {
+    clear: both;
+    padding-top: 5px;
 }
 
-.detail p{
+.detail p {
     color: #484343;
     font-size: 16px;
     font-weight: 400;
@@ -150,7 +155,7 @@ h3 {
     text-align: left;
 }
 
-.detail p:first-of-type::first-letter{
+.detail p:first-of-type::first-letter {
     color: black;
     font-size: 20px;
     font-family: cursive;
@@ -170,7 +175,7 @@ h3 {
     background-color: dimgray;
 }
 
-.detail a img{
+.detail a img {
     width: 150px;
     height: 150px;
     border: 2px solid dimgray;
