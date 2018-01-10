@@ -3,10 +3,12 @@ body {
 }
 
 .container {
+    width: 100%;
     margin: 0 auto;
 }
 
 .header {
+    width: 100%;
     height: 175px;
     background-image: url(../img/background.jpg);
 }
@@ -33,8 +35,7 @@ body {
 }
 
 .header ul li a:hover {
-    color: red;
-    /*background-color: red;*/
+    color: dimgray;
 }
 
 .footer {
@@ -94,7 +95,8 @@ h3 {
     height: 500px;
     float: left;
     position: relative;
-    outline: 3px solid dimgray;
+    margin-left: 100px;
+    outline: 3px solid black;
 }
 
 .image img:hover {
